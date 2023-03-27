@@ -1,0 +1,93 @@
+.hotels{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1378px;
+  margin: 0 auto;
+  margin-top: 120px;
+  align-items: center;
+}
+
+.hotels__header{
+  margin: 0;
+  width: 1261px;
+  height: 48px;
+  margin-right: 10px;
+  font-size: 32px;
+  color: #161414;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.hotels__button{
+  width: 105px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #F6F4FF;
+  color: #5243C2;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  position: relative;
+}
+
+.hotels__button::after{
+  content: '';
+  position: absolute;
+  background-image: url(/2rism/Картинки/arrow.png);
+  width: 13.33px;
+  height: 12.96px;
+  top: 15.52px;
+  right: 7.33px;
+}
+
+.hotels__button:hover{
+  background-color: #5243C2;
+  color: #F6F4FF;
+}
+
+.hotels__main__block{
+  display: flex;
+  justify-content: space-between;
+  width: 1378px;
+  margin-top: 64px;
+}
+
+.hotels__block{
+  width: 320px;
+  height: 446px;
+}
+
+.hotels__img__size{
+  width: 320px;
+  height: 380px;
+  border-radius: 12px;
+}
+
+.hotels__txt{
+  font-size: 16px;
+  font-weight: 500;
+  color: #161414;
+}
+
+.hotels__mark__block{
+  margin-top: 12px;
+  color: #979797;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hotels__mark__block::before{
+  content: '';
+  position: absolute;
+  background-image: url(/2rism/Картинки/mark.png);
+  width: 12px;
+  height: 14.49px;
+  top: 0;
+  left: -19px;
+}

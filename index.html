@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>2rism</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/Discover.css">
+  <link rel="stylesheet" href="./style/dataTable.css">
+  <link rel="stylesheet" href="./style/popular.css">
+  <link rel="stylesheet" href="./style/hotels.css">
+</head>
+<body>
+  <section class="main">
+    <div class="menu">
+      <img src="/2rism/Картинки/logo.svg" alt="2rism">
+      <nav class="menu__list">
+        <a class="menu__link" href="#">Home</a>
+        <a class="menu__link" href="#">Hotels</a>
+        <a class="menu__link" href="#">Restaurants</a>
+        <a class="menu__link" href="#">Tours</a>
+        <a class="menu__link" href="#">Destinations</a>
+        <a class="menu__link" href="#">Activities</a>
+        <a class="menu__link" href="#">Contact</a>
+      </nav>
+      <div class="users">
+        <div class="users-txt">
+          <span class="user__hello">Holla,</span><br>
+          <span class="user__name">Ales Nesetril</span>
+        </div>
+        <div class="users__avatar">
+          <img class="user__img" src="/2rism/Картинки/user.jpg" alt="user">
+        </div>
+      </div>
+    </div>
+    <div class="discover">
+      <h1 class="discover__txt">Discover the most engaging places</h1>
+      <button class="discover__button">
+        <img src="/2rism/Картинки/Discover.png" alt="">
+        Discover on 3D Globe</button>
+    </div>
+    <form action="#" class="dataTable">
+      <div class="dataTable__list dataTable__img--location">
+        <label for="Location" class="dataTable__txt">Location</label><br>
+        <input class="form__input" type="text" placeholder="Explore nearby destinations" id="Location">
+        <ul></ul>
+      </div>
+      <div class="dataTable__list dataTable__img--activity width">
+        <label for="Activity" class="dataTable__txt">Activity</label><br>
+        <select id="Activity" class="form__input form__input__size">
+          <option value="all">All Activities</option>
+          <option value="Culture">Culture</option>
+          <option value="Sport">Sport</option>
+          <option value="Extreme">Extreme</option>
+        </select>
+      </div>
+      <div class="dataTable__list dataTable__img--when width">
+        <label for="When" class="dataTable__txt">When</label><br>
+        <input class="form__input form__input__size" type="date" placeholder="Choose a Date" id="When">
+      </div>
+      <div class="dataTable__list dataTable__img--guests width">
+        <label for="Guests" class="dataTable__txt">Guests</label><br>
+        <input class="form__input form__input__size" type="text" placeholder="Choose a Date" id="Guests">
+      </div>
+      <button class="dataTable__system"></button>
+    </form>
+  </section>
+  <section class="popular">
+    <h1 class="popular__header">Popular Destinations</h1>
+    <div class="popular__main__block">
+      <div class="popular__big popular__block">
+        <img src="/2rism/Картинки/big.png" class="popular__img__size">
+        <span class="popular__txt--one">Big Sur</span><br>
+        <span class="popular__txt--two">California, USA</span>
+      </div>
+      <div class="popular__prescott popular__block">
+        <img src="/2rism/Картинки/prescott.png" class="popular__img__size">
+        <span class="popular__txt--one">Prescott</span><br>
+        <span class="popular__txt--two">Arizona, USA</span>
+      </div>
+      <div class="popular__fort popular__block">
+        <img src="/2rism/Картинки/fort.png" class="popular__img__size">
+        <span class="popular__txt--one">Fort Mayers</span><br>
+        <span class="popular__txt--two">Florida, USA</span>
+      </div>
+      <div class="popular__tucson popular__block">
+        <img src="/2rism/Картинки/tucson.png" class="popular__img__size">
+        <span class="popular__txt--one">Tucson</span><br>
+        <span class="popular__txt--two">Arizona, USA</span>
+      </div>
+      <div class="popular__st popular__block">
+        <img src="/2rism/Картинки/st.png" class="popular__img__size">
+        <span class="popular__txt--one">St. Joseph</span><br>
+        <span class="popular__txt--two">Michigan, USA</span>
+      </div>
+      <div class="popular__madrid popular__block">
+        <img src="/2rism/Картинки/madrid.png" class="popular__img__size">
+        <span class="popular__txt--one">Madrid</span><br>
+        <span class="popular__txt--two">Spain</span>
+      </div>
+    </div>
+  </section>
+  <section class="hotels">
+    <h1 class="hotels__header">Hotels and Restaurants</h1>
+    <button class="hotels__button">View all
+      <img src="">
+    </button>
+    <div class="hotels__main__block">
+      <div class="hotels__block">
+        <img src="/2rism/Картинки/Monastero.png" class="hotels__img__size">
+        <span class="hotels__txt">Monastero Santa Rosa Hotel & Spa</span>
+        <div class="hotels__mark__block">
+          <span class="hotels__mark">Salerno, Italy</span>
+          <div class="hotels__star__block">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+          </div>
+        </div>
+      </div>
+      <div class="hotels__block">
+        <img src="/2rism/Картинки/Grand.png" class="hotels__img__size">
+        <span class="hotels__txt">Grand Hotel Tremezzo</span>
+        <div class="hotels__mark__block">
+          <span class="hotels__mark">Lake Como, Italy</span>
+          <div class="hotels__star__block">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/empty asterisk.png" class="hotels__star">
+            <img src="/2rism/Картинки/empty asterisk.png" class="hotels__star">
+          </div>
+        </div>
+      </div>
+      <div class="hotels__block">
+        <img src="/2rism/Картинки/The.png" class="hotels__img__size">
+        <span class="hotels__txt">The Oberoi Udaivilas, Udaipur</span>
+        <div class="hotels__mark__block">
+          <span class="hotels__mark">Udaipur, India</span>
+          <div class="hotels__star__block">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/empty asterisk.png" class="hotels__star">
+          </div>
+        </div>
+      </div>
+      <div class="hotels__block">
+        <img src="/2rism/Картинки/AKA.png" class="hotels__img__size">
+        <span class="hotels__txt">AKA Beverly Hills</span>
+        <div class="hotels__mark__block">
+          <span class="hotels__mark">Los Angeles, United States</span>
+          <div class="hotels__star__block">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/star.png" class="hotels__star">
+            <img src="/2rism/Картинки/empty asterisk.png" class="hotels__star">
+            <img src="/2rism/Картинки/empty asterisk.png" class="hotels__star">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
