@@ -12,8 +12,9 @@ body{
   background-image: url(/2rism/Картинки/land.jpg);
   background-size: cover;
   background-position: center center;
-  width: 100%;
+  width: 1920px;
   height: 800px;
+  margin: 0 auto;
   overflow: hidden;
   border-radius: 0 0 54px 54px;
   display: flex;
