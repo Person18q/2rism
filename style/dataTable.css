@@ -115,9 +115,14 @@ li{
   font-weight: bold;
   margin-left: -40px;
   list-style-type: none;
+  cursor: pointer;
 }
 
-ul{
+li:hover{
+  background-color: #d3d3d3;
+}
+
+.inpet__location{
   margin: 0;
   z-index: 9999;
   background-color: #FFFFFF;

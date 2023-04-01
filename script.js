@@ -11,7 +11,24 @@ let users = [
   "Barbados",
   "Belarus",
   "Belgium",
-  "Belize"
+  "Belize",
+  'Австралия',
+  'Австрия',
+  'Азербайджан',
+  'Акротири',
+  'Албания',
+  'Алжир',
+  'Аргентина',
+  'Армения',
+  'Аруба',
+  'Афганистан',
+  'Белиз',
+  'Белоруссия',
+  'Бельгия',
+  'Бермудские Острова',
+  'Болгария',
+  'Бразилия',
+  'Британская территория в Индийском океане'
 ]
 
 function addUsers(){
@@ -30,10 +47,17 @@ input.addEventListener('input', () => {
 })
 
 document.querySelector('#Location').oninput = function () {
-  let val = this.value.trim()
-  let elastic = document.querySelectorAll('ul li')
+  const val = this.value.trim()
+  const elastic = document.querySelectorAll('ul li')
+  const body = document.querySelector('body')
   if(val != ''){
     elastic.forEach(elem => {
+      elem.addEventListener('click', Event => {
+        input.value = Event.target.textContent;
+      })
+      body.addEventListener('click', () => {
+        ul.classList.add('hidden')
+      })
       if(elem.innerText.search(val) == -1){
         elem.classList.add('hidden')
       }else{
